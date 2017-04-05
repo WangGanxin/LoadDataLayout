@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="emptyText" format="reference|string"/>
+    <attr name="emptyImgId" format="reference"/>
+    <attr name="emptyImageVisible" format="boolean"/>
+
+    <attr name="errorText" format="reference|string"/>
+    <attr name="errorImgId" format="reference"/>
+    <attr name="errorImageVisible" format="boolean"/>
+
+    <attr name="noNetWorkText" format="reference|string"/>
+    <attr name="noNetWorkImgId" format="reference"/>
+    <attr name="noNetWorkImageVisible" format="boolean"/>
+
+    <attr name="allTipTextColor" format="reference|color"/>
+    <attr name="allTipTextSize" format="integer"/>
+    <attr name="allPageBackgroundColor" format="reference|color"/>
+
+    <attr name="reloadBtnText" format="reference|string"/>
+    <attr name="reloadBtnTextSize" format="integer"/>
+    <attr name="reloadBtnTextColor" format="reference|color"/>
+    <attr name="reloadBtnBackgroundResource" format="reference"/>
+    <attr name="reloadBtnVisible" format="boolean"/>
+    <attr name="reloadClickArea">
+        <enum name="full" value="20"/>
+        <enum name="button" value="21"/>
+    </attr>
+
+    <declare-styleable name="LoadDataLayout">
+        <attr name="loadingText" format="reference|string"/>
+        <attr name="loadingTextSize" format="integer"/>
+        <attr name="loadingTextColor" format="reference|color"/>
+        <attr name="loadingViewLayoutId" format="reference"/>
+
+        <attr name="emptyText"/>
+        <attr name="emptyImgId"/>
+        <attr name="emptyImageVisible"/>
+
+        <attr name="errorText"/>
+        <attr name="errorImgId"/>
+        <attr name="errorImageVisible"/>
+
+        <attr name="noNetWorkText"/>
+        <attr name="noNetWorkImgId"/>
+        <attr name="noNetWorkImageVisible"/>
+
+        <attr name="allTipTextColor"/>
+        <attr name="allTipTextSize"/>
+        <attr name="allPageBackgroundColor"/>
+
+        <attr name="reloadBtnText"/>
+        <attr name="reloadBtnTextSize"/>
+        <attr name="reloadBtnTextColor"/>
+        <attr name="reloadBtnBackgroundResource"/>
+        <attr name="reloadBtnVisible"/>
+        <attr name="reloadClickArea"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="SwipeLoadDataLayout">
+        <attr name="emptyText"/>
+        <attr name="emptyImgId"/>
+        <attr name="emptyImageVisible"/>
+
+        <attr name="errorText"/>
+        <attr name="errorImgId"/>
+        <attr name="errorImageVisible"/>
+
+        <attr name="noNetWorkText"/>
+        <attr name="noNetWorkImgId"/>
+        <attr name="noNetWorkImageVisible"/>
+
+        <attr name="allTipTextColor"/>
+        <attr name="allTipTextSize"/>
+        <attr name="allPageBackgroundColor"/>
+
+        <attr name="reloadBtnText"/>
+        <attr name="reloadBtnTextSize"/>
+        <attr name="reloadBtnTextColor"/>
+        <attr name="reloadBtnBackgroundResource"/>
+        <attr name="reloadBtnVisible"/>
+        <attr name="reloadClickArea"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,70 @@
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="custom_progressbar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/custom_progressbar</item>
+    </style>
+
+    <style name="common_loadDataLayout">
+        <item name="com.ganxin.demo:loadingText">@string/custom_loading_text</item>
+        <item name="com.ganxin.demo:loadingTextSize">20</item>
+        <item name="com.ganxin.demo:loadingTextColor">@color/colorPrimary</item>
+        <item name="com.ganxin.demo:loadingViewLayoutId">@layout/custom_loading_view</item>
+
+        <item name="com.ganxin.demo:emptyText">@string/custom_empty_text</item>
+        <item name="com.ganxin.demo:emptyImgId">@drawable/ic_empty</item>
+        <item name="com.ganxin.demo:emptyImageVisible">true</item>
+
+        <item name="com.ganxin.demo:errorText">@string/custom_error_text</item>
+        <item name="com.ganxin.demo:errorImgId">@drawable/ic_error</item>
+        <item name="com.ganxin.demo:errorImageVisible">true</item>
+
+        <item name="com.ganxin.demo:noNetWorkText">@string/custom_nonetwork_text</item>
+        <item name="com.ganxin.demo:noNetWorkImgId">@drawable/ic_no_network</item>
+        <item name="com.ganxin.demo:noNetWorkImageVisible">true</item>
+
+        <item name="com.ganxin.demo:allTipTextColor">@color/text_color_child</item>
+        <item name="com.ganxin.demo:allTipTextSize">20</item>
+        <item name="com.ganxin.demo:allPageBackgroundColor">@color/pageBackground</item>
+
+        <item name="com.ganxin.demo:reloadBtnText">@string/custom_reloadBtn_text</item>
+        <item name="com.ganxin.demo:reloadBtnTextSize">20</item>
+        <item name="com.ganxin.demo:reloadBtnTextColor">@color/colorPrimary</item>
+        <item name="com.ganxin.demo:reloadBtnBackgroundResource">@drawable/selector_btn_normal</item>
+        <item name="com.ganxin.demo:reloadBtnVisible">true</item>
+        <item name="com.ganxin.demo:reloadClickArea">button</item>
+    </style>
+
+    <style name="common_swipeLoadDataLayout">
+        <item name="com.ganxin.demo:emptyText">@string/custom_empty_text</item>
+        <item name="com.ganxin.demo:emptyImgId">@drawable/ic_empty_zhihu</item>
+        <item name="com.ganxin.demo:emptyImageVisible">true</item>
+
+        <item name="com.ganxin.demo:errorText">@string/custom_error_text</item>
+        <item name="com.ganxin.demo:errorImgId">@drawable/ic_error_zhihu</item>
+        <item name="com.ganxin.demo:errorImageVisible">true</item>
+
+        <item name="com.ganxin.demo:noNetWorkText">@string/custom_nonetwork_text</item>
+        <item name="com.ganxin.demo:noNetWorkImgId">@drawable/ic_no_network_zhihu</item>
+        <item name="com.ganxin.demo:noNetWorkImageVisible">true</item>
+
+        <item name="com.ganxin.demo:allTipTextColor">@color/text_color_child</item>
+        <item name="com.ganxin.demo:allTipTextSize">16</item>
+        <item name="com.ganxin.demo:allPageBackgroundColor">@color/pageBackground</item>
+
+        <item name="com.ganxin.demo:reloadBtnText">@string/custom_reloadBtn_text</item>
+        <item name="com.ganxin.demo:reloadBtnTextSize">16</item>
+        <item name="com.ganxin.demo:reloadBtnTextColor">@color/colorPrimary</item>
+        <!--<item name="com.ganxin.demo:reloadBtnBackgroundResource">@drawable/selector_btn_normal</item>-->
+        <item name="com.ganxin.demo:reloadBtnVisible">true</item>
+        <item name="com.ganxin.demo:reloadClickArea">button</item>
+    </style>
+</resources>

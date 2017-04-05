@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LoadDataLayout</string>
+
+    <string name="normal_style">普通样式</string>
+    <string name="zhihu_style">仿知乎样式</string>
+
+    <string name="reload_text">reload data</string>
+
+    <string name="custom_loading_text">加载中</string>
+
+    <string name="custom_empty_text">暂无数据</string>
+    <string name="custom_error_text">加载失败，请稍后重试</string>
+    <string name="custom_nonetwork_text">似乎出了点问题...</string>
+    <string name="custom_reloadBtn_text">重新加载</string>
+</resources>

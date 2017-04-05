@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.ganxin.demo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name="com.ganxin.demo.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ganxin.demo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ganxin.demo.Sample1Activity"
+            android:label="@string/normal_style"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.ganxin.demo.Sample2Activity"
+            android:label="@string/zhihu_style"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

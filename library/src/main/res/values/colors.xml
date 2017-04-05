@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E8AE8</color>
+    <color name="colorPrimaryDark">#2095FF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pageBackground">#F2F4F7</color>
+
+    <!-- 统一常见颜色 -->
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#4dc433</color>
+    <color name="red">#FF2626</color>
+    <color name="blue">#4056AB</color>
+    <color name="black">#000000</color>
+    <color name="gray">#888888</color>
+    <color name="gray_light">#F1F1F1</color>
+
+    <!-- 统一文字颜色 -->
+    <color name="text_color_theme">@color/colorPrimaryDark</color>
+    <color name="text_color_main">#000000</color>
+    <color name="text_color_child">#6A6A6A</color>
+    <color name="text_color_small_child">#C1C1C1</color>
+
+</resources>
