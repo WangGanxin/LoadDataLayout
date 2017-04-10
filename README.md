@@ -1,4 +1,6 @@
-# LoadDataLayout
+<a href='https://bintray.com/wangganxin/maven/LoadDataLayout?source=watch' alt='Get automatic notifications about new "LoadDataLayout" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a><a href='https://bintray.com/wangganxin/maven/LoadDataLayout?source=watch' alt='Get automatic notifications about new "LoadDataLayout" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
+
+# LoadDataLayout   [ ![Download](https://api.bintray.com/packages/wangganxin/maven/LoadDataLayout/images/download.svg) ](https://bintray.com/wangganxin/maven/LoadDataLayout/_latestVersion)
 App公共组件：加载数据Layout，高效开发必备！
 
 项目中经常会遇到几种页面：加载中、无网络、无数据、出错四种情况，传统的方式是通过include相关的布局，逐个分情况设置显示或隐藏，这样繁琐的过程一直是个痛点，于是参考了 `Weavey` 的封装套路，自己重新写了一套，进行了一些优化和扩展，虽然说原理不会太复杂（继承FrameLayout，XML渲染完成后，加上四个页面，然后按需控制显示哪一层），但若把它分离出来确实是提升开发效率的一个利器。
