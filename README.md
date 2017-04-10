@@ -1,5 +1,3 @@
-<a href='https://bintray.com/wangganxin/maven/LoadDataLayout?source=watch' alt='Get automatic notifications about new "LoadDataLayout" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a><a href='https://bintray.com/wangganxin/maven/LoadDataLayout?source=watch' alt='Get automatic notifications about new "LoadDataLayout" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
-
 # LoadDataLayout   [ ![Download](https://api.bintray.com/packages/wangganxin/maven/LoadDataLayout/images/download.svg) ](https://bintray.com/wangganxin/maven/LoadDataLayout/_latestVersion)
 App公共组件：加载数据Layout，高效开发必备！
 
